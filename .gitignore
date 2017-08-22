@@ -1,0 +1,17 @@
+*
+!.gitignore
+!*.cpp
+!*.h
+!*.pro
+!*.qml
+!*.png
+!*.svg
+!*.pdf
+!*/
+!assets/
+!images/
+!images/icons/
+!images/batt_images
+!images/icons/connection
+!images/icons/settings
+!images/icons/trigger
