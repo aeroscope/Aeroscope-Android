@@ -7,7 +7,9 @@
 !*.png
 !*.svg
 !*.pdf
-!*/
+!*.xml
+!resources.qrc
+!android/
 !assets/
 !images/
 !images/icons/
@@ -15,3 +17,6 @@
 !images/icons/connection
 !images/icons/settings
 !images/icons/trigger
+moc*
+qrc_qml*
+qrc_resources*
