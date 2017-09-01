@@ -1,3 +1,5 @@
+// Copyright (C) 2017 Aeroscope Labs LLC
+
 #include "settings.h"
 #include <QtQml>
 

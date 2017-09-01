@@ -2,6 +2,8 @@
 **
 ** Copyright (C) 2013 BlackBerry Limited. All rights reserved.
 ** Copyright (C) 2015 The Qt Company Ltd.
+** Copyright (C) 2017 Aeroscope Labs LLC
+**
 ** Contact: http://www.qt.io/licensing/
 **
 ** This file is part of the QtBluetooth module of the Qt Toolkit.
@@ -57,16 +59,8 @@ int main(int argc, char *argv[])
     //QLoggingCategory::setFilterRules(QStringLiteral("qt.bluetooth* = true"));
 
     Scope s;
-    //QQuickView *view = new QQuickView;
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("scope", &s);
-    //engine.load(QUrl("qrc:/main.qml"));
     engine.load(QUrl("qrc:/assets/Ascope_Home.qml"));
-//    view->rootContext()->setContextProperty("scope", &s);
-
-//    view->setSource(QUrl("qrc:/main.qml"));
-//    view->setResizeMode(QQuickView::SizeRootObjectToView);
-//    view->show();
-
     return app.exec();
 }

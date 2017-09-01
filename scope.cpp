@@ -1,4 +1,6 @@
-﻿#include "scope.h"
+﻿// Copyright (C) 2017 Aeroscope Labs LLC
+
+#include "scope.h"
 #include "settings.h"
 
 Scope::Scope():

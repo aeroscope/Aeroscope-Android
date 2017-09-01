@@ -51,8 +51,8 @@
         <file>images/icons/trigger/pos_edge_trig.pdf</file>
         <file>images/icons/trigger/pos_edge_trig.svg</file>
         <file>images/icons/hamburger.svg</file>
-        <file>images/icon-76@2x.png</file>
         <file>images/wireless.png</file>
         <file>assets/Points_Vectors_Btn.qml</file>
+        <file>images/icon.png</file>
     </qresource>
 </RCC>
